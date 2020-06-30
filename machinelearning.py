@@ -1,9 +1,9 @@
 """
 Odessa Elie
-010766475
-Final Project
+May 2020
 
-The purpose of this project is to use machine learning algorithms to solve a research problem
+The purpose of this project is to use machine learning algorithms to solve a research problem.
+I am investigating factors affecting COVID-19 outcomes in different countries and US states.
 """
 
 import pandas as pd
@@ -306,7 +306,7 @@ def cluster_states():
 
 #MAIN MENU
 def main():
-    #print("Choose an item from the menu that corresponds with what you want to do:\n")
+    #menu can be altered with a loop. This version does all 6 options in succession.
     print("1. Finding the most significant factors influencing whether a country decides to impose restrictions\n")
     decision_tree()
     print("2. Predicting number of deaths\n")
